@@ -1,9 +1,9 @@
 var mc = require('minecraft-protocol');
 
 var client = mc.createClient({
-  host: "TrenchCoatSquad.aternos.me",   // optional
-  port: 25565,         // optional
-  username: "MrSpock31415"
+  host: "ffmakzid.aternos.me",   // optional
+  port: 47942,         // optional
+  username: "MAkZ_27"
 });
 
 client.on('chat', function(packet) {
